@@ -1,0 +1,27 @@
+{
+  "name": "litch-max",
+  "version": "0.1.0",
+  "description": "Portable Classic and Duck chess rules and bounded search.",
+  "keywords": ["chess", "duck-chess", "engine", "embedded"],
+  "license": "MPL-2.0 AND MIT AND LicenseRef-micro-Max-Public-Domain",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foxieproducts/litch-max.git"
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "build": {
+    "srcDir": ".",
+    "includeDir": "include",
+    "srcFilter": [
+      "-<*>",
+      "+<src/*.cpp>",
+      "+<vendor/mcu-max/src/mcu-max.c>",
+      "+<vendor/mcu-max/src/mcu-max-position.c>"
+    ],
+    "flags": [
+      "-Ivendor/mcu-max/src",
+      "-Ithird_party/foxie_embedded/include"
+    ]
+  }
+}

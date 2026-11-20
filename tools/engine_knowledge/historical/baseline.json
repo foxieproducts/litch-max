@@ -1,0 +1,30 @@
+{
+  "files": {
+    "include/modules/chess_notation.hpp": "5cd20bea46037f0328928b50e3b40833c94599dfd20c6777ccc63abafeed182c",
+    "include/modules/classic_chess_evaluation.hpp": "fd30dd4fe8b016ad869dfeaf882f9b9874b3fb6a6f234937dd30d43b37b2b7b7",
+    "include/modules/classic_chess_search.hpp": "84ff81d56bb62a24c458509aa46ba759d81f1423376ee883db7ed45a57698762",
+    "include/modules/duck_chess_rules.hpp": "7779f9f84cf56168d763c1aeff8780885f0a601abb99dbad50dd494703da4cf2",
+    "include/modules/duck_chess_search.hpp": "2d6efd2fa78043867a9da1dd10db75373625e8867099eedf84bc9694afc25497",
+    "include/modules/engine.hpp": "8d57c0d252ccaed3f61688d63282d0d08bdef676a42acd5a754042a075f21c15",
+    "include/modules/fen_constants.hpp": "2f83d42c870c7aea85e15c6a43f703296455522f4d07820ee629d91d3bb07139",
+    "include/runtime/chess_castling_patterns.hpp": "dd67d56008169a3a9e3da161a9fe0db6acdfd4d78003681ad53c8e2767e9e770",
+    "lib/foxie_embedded/include/foxie_embedded/fixed_string.hpp": "26293ee02f2f3ca7c83638bcb9382a399d47e5c8b328fb82728c37771525dfa9",
+    "lib/foxie_embedded/include/foxie_embedded/format.hpp": "8a78183bfdbe71f12571b7e871abee588b313ac9d07130d0112e41b370521be6",
+    "lib/mcu-max/src/mcu-max-downstream-config.h": "42a184efb2ebcfe94e0952600ae68152b21e3d5c544c9964c44ed63d310ecc2a",
+    "lib/mcu-max/src/mcu-max-platform.h": "e39724c992e581c7173a19bb9c201aa67d89668f492aab72f4d7fe18d6244109",
+    "lib/mcu-max/src/mcu-max-position.c": "571f7bcfd766cfb4f61a2e90349e84f1a764345efda838b7a66e2d630e797a24",
+    "lib/mcu-max/src/mcu-max-position.h": "43b9368377fc78d6835f287880505acd773c076d9270bb99a1dd532dc65c5070",
+    "lib/mcu-max/src/mcu-max.h": "5228ddad52c1b494820e65a3626ed49a802b3b977600d779388b141cf7416f6d",
+    "src/classic_chess_evaluation.cpp": "51aef8ae3be13c606591f0a02c7740d676374ceb9196f68a4f913237069ece8e",
+    "src/classic_chess_move_order.cpp": "e41a19b234d524d1940c56c7a7f02e9f995876fd90e2596253ecaef2d4aeb725",
+    "src/classic_chess_move_order.hpp": "294628e153a32883bb85d0a44f0a5e9348655c81ef0437c79a7f423580768bac",
+    "src/classic_chess_search.cpp": "1481598b20d650d98db427c24d5748e191d8d8be6b1377e48ab4b6ebe0a2d973",
+    "src/duck_chess_analysis.cpp": "d93f1c1b82c7ddd3b098961a71c1537be6b6ac31d0a0cc7d6c1598e1cb0c1a55",
+    "src/duck_chess_rules.cpp": "0aa0fd46e4deb73c63a6c220635706ceefe30f6ffd7a92690dcfce3bba8072b9",
+    "src/duck_chess_rules_generation.cpp": "5a629040c12500e37cffd9ec65942bdb849269f7d675bcd08ed034e1d5218bd1",
+    "src/duck_chess_rules_internal.hpp": "e8a460f2137867ad691347b48f7e51ee2fe850abe9be6525df139b1722783c49",
+    "src/duck_chess_rules_position.cpp": "50aad61720a192701d900e258cffaff4a4c67b3ca1c1160c7e16f30dc21207b4",
+    "src/duck_chess_search_workspace.hpp": "f1e0a44c39a6050f984422cc39f409e29b9929e5e52bf60f05fd4e478768a60e"
+  },
+  "head": "1da224d728b49708c8525989afad39c2fcb78e4f"
+}

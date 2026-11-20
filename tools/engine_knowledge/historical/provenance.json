@@ -1,0 +1,215 @@
+{
+  "baseline": {
+    "files": [
+      {
+        "bytes": 3952,
+        "git_blob": "08d82365501e225e14c3142bcfededc6045b6781",
+        "path": "include/modules/chess_notation.hpp",
+        "sha256": "5cd20bea46037f0328928b50e3b40833c94599dfd20c6777ccc63abafeed182c",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 647,
+        "git_blob": "e016497d29076492088dbad4c82f96c01b50119b",
+        "path": "include/modules/classic_chess_evaluation.hpp",
+        "sha256": "fd30dd4fe8b016ad869dfeaf882f9b9874b3fb6a6f234937dd30d43b37b2b7b7",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 3062,
+        "git_blob": "26c76c4cba6230addb4f548cfa49af439bfa44e1",
+        "path": "include/modules/classic_chess_search.hpp",
+        "sha256": "84ff81d56bb62a24c458509aa46ba759d81f1423376ee883db7ed45a57698762",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 1986,
+        "git_blob": "d930cac4ad2cf98043941a740a5fffaebaaf9ca6",
+        "path": "include/modules/duck_chess_rules.hpp",
+        "sha256": "7779f9f84cf56168d763c1aeff8780885f0a601abb99dbad50dd494703da4cf2",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 1756,
+        "git_blob": "6b520c788c713dd37b9dfb7a5c77fea5f224ebc3",
+        "path": "include/modules/duck_chess_search.hpp",
+        "sha256": "2d6efd2fa78043867a9da1dd10db75373625e8867099eedf84bc9694afc25497",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 7245,
+        "git_blob": "14bc4cd3713796c1072b8e65272277b9a4ceb35f",
+        "path": "include/modules/engine.hpp",
+        "sha256": "8d57c0d252ccaed3f61688d63282d0d08bdef676a42acd5a754042a075f21c15",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 130,
+        "git_blob": "95884a81ed1ac730b3ae3adc6f70405b44aa7351",
+        "path": "include/modules/fen_constants.hpp",
+        "sha256": "2f83d42c870c7aea85e15c6a43f703296455522f4d07820ee629d91d3bb07139",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 386,
+        "git_blob": "402e9ca30d22aaa646ac34e21c2c2feafec38a07",
+        "path": "include/runtime/chess_castling_patterns.hpp",
+        "sha256": "dd67d56008169a3a9e3da161a9fe0db6acdfd4d78003681ad53c8e2767e9e770",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 4600,
+        "git_blob": "83766102f710807615dc351c9101260c1cd5d201",
+        "path": "lib/foxie_embedded/include/foxie_embedded/fixed_string.hpp",
+        "sha256": "26293ee02f2f3ca7c83638bcb9382a399d47e5c8b328fb82728c37771525dfa9",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 11813,
+        "git_blob": "ed615a517d7fd4451ade3165319da6c723d6b929",
+        "path": "lib/foxie_embedded/include/foxie_embedded/format.hpp",
+        "sha256": "8a78183bfdbe71f12571b7e871abee588b313ac9d07130d0112e41b370521be6",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 430,
+        "git_blob": "8618b1d2b3f5756bf4acb8906f35b3b5bf954217",
+        "path": "lib/mcu-max/src/mcu-max-downstream-config.h",
+        "sha256": "42a184efb2ebcfe94e0952600ae68152b21e3d5c544c9964c44ed63d310ecc2a",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 232,
+        "git_blob": "da897c8dfe4a9082efa796a54f528f399227bca4",
+        "path": "lib/mcu-max/src/mcu-max-platform.h",
+        "sha256": "e39724c992e581c7173a19bb9c201aa67d89668f492aab72f4d7fe18d6244109",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 18243,
+        "git_blob": "d9b9c48d0c1e225260de03d778ff2342244e5b1e",
+        "path": "lib/mcu-max/src/mcu-max-position.c",
+        "sha256": "571f7bcfd766cfb4f61a2e90349e84f1a764345efda838b7a66e2d630e797a24",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 3486,
+        "git_blob": "1b1827fde0fdd8706ed2761c70a6df73ea708dab",
+        "path": "lib/mcu-max/src/mcu-max-position.h",
+        "sha256": "43b9368377fc78d6835f287880505acd773c076d9270bb99a1dd532dc65c5070",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 7593,
+        "git_blob": "f70c0c1fbe6e17d39491ba1c857b7caa465bb1ee",
+        "path": "lib/mcu-max/src/mcu-max.h",
+        "sha256": "5228ddad52c1b494820e65a3626ed49a802b3b977600d779388b141cf7416f6d",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 16846,
+        "git_blob": "9b88331db6ed02e5ee57a8e98380453ebcb52aa5",
+        "path": "src/classic_chess_evaluation.cpp",
+        "sha256": "51aef8ae3be13c606591f0a02c7740d676374ceb9196f68a4f913237069ece8e",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 8809,
+        "git_blob": "3953688859aa7dfedf68ba7297ba4f180685103b",
+        "path": "src/classic_chess_move_order.cpp",
+        "sha256": "e41a19b234d524d1940c56c7a7f02e9f995876fd90e2596253ecaef2d4aeb725",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 1792,
+        "git_blob": "e223695d822993e2e9ced69b2ea7a4137d5a6371",
+        "path": "src/classic_chess_move_order.hpp",
+        "sha256": "294628e153a32883bb85d0a44f0a5e9348655c81ef0437c79a7f423580768bac",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 22768,
+        "git_blob": "d285b8cf31194a75f9628966b96c2fffccc14ab1",
+        "path": "src/classic_chess_search.cpp",
+        "sha256": "1481598b20d650d98db427c24d5748e191d8d8be6b1377e48ab4b6ebe0a2d973",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 14292,
+        "git_blob": "5833b684eae2b1c68f5a87039b9ddb1996e5c4d0",
+        "path": "src/duck_chess_analysis.cpp",
+        "sha256": "d93f1c1b82c7ddd3b098961a71c1537be6b6ac31d0a0cc7d6c1598e1cb0c1a55",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 7580,
+        "git_blob": "735e355a0b9bbfd98f5a313f7f8892c1d3b1c126",
+        "path": "src/duck_chess_rules.cpp",
+        "sha256": "0aa0fd46e4deb73c63a6c220635706ceefe30f6ffd7a92690dcfce3bba8072b9",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 8759,
+        "git_blob": "39b7755b178059ace7dbbadff63ff0ad5966d272",
+        "path": "src/duck_chess_rules_generation.cpp",
+        "sha256": "5a629040c12500e37cffd9ec65942bdb849269f7d675bcd08ed034e1d5218bd1",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 1866,
+        "git_blob": "365f483f181ee252aaac5596ef665d22f75983f1",
+        "path": "src/duck_chess_rules_internal.hpp",
+        "sha256": "e8a460f2137867ad691347b48f7e51ee2fe850abe9be6525df139b1722783c49",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 9277,
+        "git_blob": "2c8712305b06a472b8e21afa2b87160d2a1cf20c",
+        "path": "src/duck_chess_rules_position.cpp",
+        "sha256": "50aad61720a192701d900e258cffaff4a4c67b3ca1c1160c7e16f30dc21207b4",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      },
+      {
+        "bytes": 3332,
+        "git_blob": "57df69f34d0367806172ae267260b9f2fc9d6f8b",
+        "path": "src/duck_chess_search_workspace.hpp",
+        "sha256": "f1e0a44c39a6050f984422cc39f409e29b9929e5e52bf60f05fd4e478768a60e",
+        "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+      }
+    ],
+    "source_sha": "1da224d728b49708c8525989afad39c2fcb78e4f"
+  },
+  "generator": {
+    "files": [
+      {
+        "bytes": 14465,
+        "git_blob": "48035888a9a398dc7d0a4ece9b50b55a3f2dc2ca",
+        "path": "tools/engine_knowledge/generate_opening_book.py",
+        "sha256": "0ba8d439d2c8a05dffc3372db23b0652eee198242211494ed4609c40d43f60ee",
+        "source_sha": "5757b566873b4e584efb0e8e44c3bef7a27e3b6a"
+      },
+      {
+        "bytes": 5465,
+        "git_blob": "274edf4b83d9e3ce3240e1783a866570bdaf7431",
+        "path": "tools/engine_knowledge/generate_opening_book.cpp",
+        "sha256": "779f90a2ddb891c3eb47f1e8ccc304f421b2aeca82da0b2fb0685f9a0654e039",
+        "source_sha": "5757b566873b4e584efb0e8e44c3bef7a27e3b6a"
+      },
+      {
+        "bytes": 6213,
+        "git_blob": "c3d1670599751d347f5f17891f81ec8ada75760d",
+        "path": "tools/engine_knowledge/generate_opening_book_seed.json",
+        "sha256": "d453b66389590130c38084bbe5378b1222f879d0949a33016bae10101e008791",
+        "source_sha": "5757b566873b4e584efb0e8e44c3bef7a27e3b6a"
+      }
+    ],
+    "source_sha": "5757b566873b4e584efb0e8e44c3bef7a27e3b6a"
+  },
+  "table": {
+    "bytes": 28624,
+    "git_blob": "fb74a79fda5f0c2e92f0e7f6b22fa3743037e671",
+    "path": "src/classic_chess_opening_book_data.inc",
+    "sha256": "f114913a39686f3fc737b2f1103134694d4fd8c52f072aa499b1cc308d5fa91e",
+    "source_sha": "5757b566873b4e584efb0e8e44c3bef7a27e3b6a"
+  }
+}

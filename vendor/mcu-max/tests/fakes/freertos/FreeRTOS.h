@@ -1,0 +1,4 @@
+#ifndef MCU_MAX_TEST_FAKE_FREERTOS_H
+#define MCU_MAX_TEST_FAKE_FREERTOS_H
+
+#endif
